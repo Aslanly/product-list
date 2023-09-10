@@ -1,0 +1,72 @@
+.App {
+    height: auto;
+}
+.Wrrap {
+    margin: 0 auto;
+    width: 30%;
+    min-height: 100vh;
+}
+.App-header {
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: cadetblue;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input {
+    width: 200%;
+    margin-right: 10px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    outline: none;
+    border: 1mm solid white;
+}
+
+.addProductButton {
+    width: 100%;
+    padding: 4px;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+    border: 1mm solid white;
+}
+
+main {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+
+li {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+li.crossed {
+    text-decoration: line-through;
+}
+
+.Buttons {
+    display: flex;
+    grid-gap: 5px;
+    max-height: 50px;
+}
+
+.ProductName{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    word-break: break-all;
+    margin-left: 10px;
+}
